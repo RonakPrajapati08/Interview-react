@@ -1,22 +1,3 @@
-// import React from "react";
-// import "../../src/index";
-
-// function ProductCard({ product, onAddToCart }) {
-//   return (
-//     <div className="product-card">
-//       <img src={product.image} className="img-fluid rounded-top ronak" alt="" />
-//       <h3>{product.title}</h3>
-//       <p>₹{product.price}</p>
-//       <p>Rate: {product.rating.rate}</p>
-//       <button className="px-3 py-2 w-100" onClick={() => onAddToCart(product)}>
-//         Add to Cart
-//       </button>
-//     </div>
-//   );
-// }
-
-// export default ProductCard;
-
 import React, { useState } from "react";
 import { Button } from "react-bootstrap";
 import "../index.css";
@@ -72,7 +53,7 @@ function ProductCard({ product, onAddToCart }) {
 
       <Button
         variant=""
-        className="w-100 mt-3 btn-radi"
+        className="w-100 mt-3"
         onClick={() => onAddToCart(product)}
       >
         <i className="fa fa-shopping-bag me-2" aria-hidden="true"></i>

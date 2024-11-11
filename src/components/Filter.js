@@ -5,7 +5,7 @@ const Filter = ({ onFilter, onPriceFilterChange, onRatingFilterChange }) => {
   const [activeKey, setActiveKey] = useState("0");
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [selectedPriceRanges, setSelectedPriceRanges] = useState([]);
-  const [selectedRatings, setSelectedRatings] = useState([]); // Updated for multiple ratings
+  const [selectedRatings, setSelectedRatings] = useState([]);
 
   const categories = [
     "electronics",

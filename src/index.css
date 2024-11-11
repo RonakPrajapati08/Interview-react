@@ -83,6 +83,7 @@ body {
 
 .product-card button:hover {
   background-color: #ec4e1e;
+  color: white;
 }
 
 .cart-popup {
@@ -172,16 +173,4 @@ body {
 .gfe{
   top: 3px;
   right: 10px;
-}
-.add-to-cart-button {
-  background-color: #f4511e; /* Same orange color */
-  color: white;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.add-to-cart-button i {
-  font-size: 1.2rem;
 }
