@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.filter {
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.filter h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.filter ul {
+  list-style: none;
+  padding: 0;
+}
+
+.filter li {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.filter li label {
+  margin-left: 5px;
+}
+
+.filter button {
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.product-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.product-card button {
+  background-color: #ec4e1e;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.product-card button:hover {
+  background-color: #ec4e1e;
+}
+
+.cart-popup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.loader {
+  font-size: 1.5rem;
+  color: #ec4e1e;
+  text-align: center;
+  padding: 20px;
+}
+.ronak{
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  width: 100%;
+}
+.text{
+  background-color: #ec4e1e;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 10px;
+}
+.starrr{
+  color: #FFA534;
+  font-size: 14px;
+}
