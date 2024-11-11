@@ -79,6 +79,9 @@ const Filter = ({ onFilter, onPriceFilterChange, onRatingFilterChange }) => {
                     {category}
                   </li>
                 ))}
+                <li className="mb-0" style={{ color: "#EC4E1E" }}>
+                  See all
+                </li>
               </ul>
             </Accordion.Body>
           </Accordion.Item>
@@ -108,6 +111,9 @@ const Filter = ({ onFilter, onPriceFilterChange, onRatingFilterChange }) => {
                     <label>{range.label}</label>
                   </li>
                 ))}
+                <li className="mb-0" style={{ color: "#EC4E1E" }}>
+                  See all
+                </li>
               </ul>
             </Accordion.Body>
           </Accordion.Item>

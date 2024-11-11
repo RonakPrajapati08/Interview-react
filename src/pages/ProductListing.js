@@ -122,7 +122,7 @@ function ProductListing() {
             <div className="row">
               {filteredProducts.map((product) => (
                 <div
-                  className="col-lg-4 col-md-6 col-sm-6 mb-4 d-flex align-items-stretch"
+                  className="col-lg-3 col-md-6 col-sm-6 mb-4 d-flex align-items-stretch"
                   key={product.id}
                 >
                   <ProductCard

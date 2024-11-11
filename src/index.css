@@ -46,8 +46,9 @@ body {
 }
 
 .product-card {
+  position: relative;
   background-color: #fff;
-  border-radius: 8px;
+  border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 15px;
   text-align: center;
@@ -75,7 +76,7 @@ body {
   color: #fff;
   border: none;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 7px;
   font-size: 1rem;
   transition: background-color 0.3s;
 }
@@ -121,9 +122,66 @@ body {
 .text{
   background-color: #ec4e1e;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .starrr{
   color: #FFA534;
   font-size: 14px;
+}
+.product-title {
+  font-size: 16px;
+  text-align: start;
+  font-weight: 300;
+  color: #262626;
+  margin-bottom: 10px;
+}
+
+.price-details {
+  display: flex;
+  align-items: center;
+}
+
+.discounted-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #262626;
+}
+
+.original-price {
+  text-decoration: line-through;
+  font-size: 1rem;
+  color: #8E8E8E;
+}
+
+.discount-percent {
+  font-size: 1rem;
+  color: #4FB400;
+}
+.badge {
+  font-size: 16px;
+  font-family: Rubik;
+  letter-spacing: 1px;
+  font-weight: 500 !important;
+  padding: 8px 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-end-start-radius: 0 ;
+  border-start-end-radius: 0 ;
+  background-color: #EC4E1E;
+}
+.gfe{
+  top: 3px;
+  right: 10px;
+}
+.add-to-cart-button {
+  background-color: #f4511e; /* Same orange color */
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-to-cart-button i {
+  font-size: 1.2rem;
 }
